@@ -19,10 +19,11 @@ In this repository, I solve different recursion problems using Java. The exercis
 - [00. Basic Example of Recursive Mult with Sums](src/RecursiveSum.java)
 - [01. Recursive Power](src/RecursivePower.java)
 - [02. Recursive Prime Number](src/IsPrime.java)
-- [03. Digit Count](src/DigitCount.java)
+- [03. Digit Count](src/DigitCountRecursive.java)
 - [04. Prime Factors Generator](src/PrimeFactors.java)
-- [05-12. Class Sequence (search, order, find element working in collections)](src/SequenceClass.java)
-- [95. Fractal of Snowcups](src/SnowcupsFractal.java)
+- [05-12. Class Sequence (search, order, find element working in collections)](src/SecuenciaPlus.java)
+- [95. Fractal of Snowcups](src/CopoDeNieve.java)
+- [95. Fractal of Snowcups with visuals](src/CopoDeNieveAnimado.java)
 - More exercises will be added here as I progress.
 
 ## How to Use
