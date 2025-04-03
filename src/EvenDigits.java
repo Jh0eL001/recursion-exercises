@@ -9,6 +9,7 @@
 public class EvenDigits {
 
   public static boolean evenDigits(int number) {
+    // Caso Base si el numero tiene un solo digito, comprobar si es par o no.
     if (number < 10) {
       return number % 2 == 0;
     }
@@ -16,11 +17,10 @@ public class EvenDigits {
     if (digit % 2 != 0)
       return false;
     return evenDigits(number / 10);
-
   }
 
   public static void main(String[] args) {
-    int number = 221426282;
+    int number = 221426232;
     if (evenDigits(number)) {
       System.out.println("\nEl numero " + number + " tiene los digitos pares.");
     } else {
