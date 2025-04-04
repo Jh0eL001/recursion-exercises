@@ -58,3 +58,4 @@ In this repository, I solve different recursion problems using Java. The exercis
 ## Links
 
 - [Practice Exercises PDF](PracticeExercises.pdf) - The PDF containing all the exercises instructions.
+- [Exercises to practice](https://github.com/LordDanilo/EjerciciosRecursividad/tree/main)
