@@ -34,6 +34,9 @@ In this repository, I solve different recursion problems using Java. The exercis
 - [Recursive Multiplicationd](src/MultiRecursiva.java)
 - [Sum of prime number of a sequence](src/SumaPrimos.java)
 - [Sum of prime number of a sequence 2.0](src/SumaPrimosRecursiva.java)
+- [Divisor counter of a number](src/DivisorCounter.java)
+- [Kind of a number](src/TipoDeNumero.java)
+- [Convert a number to Binary](src/ToBinary.java)
 
 ## Intermediate Exercises
 

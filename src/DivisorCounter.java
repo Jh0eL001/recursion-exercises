@@ -1,11 +1,14 @@
 /*
  * 2025-04-04.
- * Divisor Counter
- * PB| divCount(num, div) = 1     | num = 1
- * PB| divCount(num, div) = 0     | num = 0
- * PB| divCount(num, div) = 2     | num = div
- * PR| divCount(num, div) = divCount(num, div + 1) + 1 | num % div == 0
- * CC| 
+ * Contador recursivo de divisores de un número natural.
+ * 
+ * Método público: divCounter(num) → devuelve la cantidad de divisores de num.
+ * Método auxiliar recursivo: divCounter(num, div) → verifica si div divide a num y acumula.
+ * 
+ * PB| divCounter(num, div) = 0              | div > num
+ * PR| divCounter(num, div) = 1 + divCounter(num, div + 1) | num % div == 0 ∧ div ≤ num
+ * PR| divCounter(num, div) = divCounter(num, div + 1)     | num % div ≠ 0 ∧ div ≤ num
+ * CC| num ∈ ℕ⁺ (naturales positivos), div ∈ [1, num]
  */
 
 import java.util.Random;
@@ -39,8 +42,8 @@ public class DivisorCounter {
 
   public static void main(String[] args) {
     Random rand = new Random();
-    int num = rand.nextInt(100) + 1;
+    int num = 10;
     System.out.println(num + " tiene: " + divCounter(num) + " Divisores.");
-    System.out.println(num + " tiene: " + divCounter2(num) + " Divisores.");
+    // System.out.println(num + " tiene: " + divCounter2(num) + " Divisores.");
   }
-} 
+}
