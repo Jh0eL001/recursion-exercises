@@ -48,6 +48,7 @@ In this repository, I solve different recursion problems using Java. The exercis
 
 - [95. Fractal of Snowcups](src/CopoDeNieve.java)
 - [95. Fractal of Snowcups with visuals](src/CopoDeNieveAnimado.java)
+- [96. Fractal  "Parmoniosa"](src/Parmoniosa.java)
   
 ## How to Use
 
