@@ -37,6 +37,8 @@ In this repository, I solve different recursion problems using Java. The exercis
 - [Divisor counter of a number](src/DivisorCounter.java)
 - [Kind of a number](src/TipoDeNumero.java)
 - [Convert a number to Binary](src/ToBinary.java)
+- [Occurences of a letter in a string](src/CharacterCounter.java)
+- [Palindrome Cheker](src/PalindromerChecker.java)
 
 ## Intermediate Exercises
 
