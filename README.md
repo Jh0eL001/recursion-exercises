@@ -48,6 +48,8 @@ In this repository, I solve different recursion problems using Java. The exercis
 
 ## Complex Exercises
 
+- [25. Simple Reverse of a string (without repeated characters)](src/SimpleReverse.java)
+- [68. Poligonal Numbers](src/PoligonalNumbers.java)
 - [95. Fractal of Snowcups](src/CopoDeNieve.java)
 - [95. Fractal of Snowcups with visuals](src/CopoDeNieveAnimado.java)
 - [96. Fractal  "Parmoniosa"](src/Parmoniosa.java)
