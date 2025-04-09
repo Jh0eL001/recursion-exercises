@@ -16,12 +16,19 @@ public class PoligonalNumbers {
     if (n == 1)
       num = 1;
     else
-      num = pol(n - 1) + 3 * n - 2;
+      num = pol(n - 1) + 3 * (n - 1) + 1;
     return num;
+  }
+
+  public static int pol2(int n) {
+    if (n == 1)
+      return 1;
+    return pol(n - 1) + 3 * n - 2;
   }
 
   public static void main(String[] args) {
     int num = 5;
     System.out.println("El numero poligonal de 5 es: " + pol(num));
+    System.out.println("El numero poligonal de 5 es: " + pol2(num));
   }
 }
