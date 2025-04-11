@@ -44,6 +44,10 @@ In this repository, I solve different recursion problems using Java. The exercis
 
 - [04. Prime Factors Generator](src/PrimeFactors.java)
 - [05-12. Class Sequence (search, order, find element working in collections)](src/SecuenciaPlus.java)
+- [Revert A String](src/RevertString.java)
+- [Simple Reverse of a string](src/SimpleReverse.java)
+- [Poligonal Numbers](src/PoligonalNumbers.java)
+- [HANOI TOWERS](src/HanoiTowers.java)
 - More exercises will be added here as I progress.
 
 ## Complex Exercises
