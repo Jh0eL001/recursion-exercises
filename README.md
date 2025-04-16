@@ -44,19 +44,25 @@ In this repository, I solve different recursion problems using Java. The exercis
 
 - [04. Prime Factors Generator](src/PrimeFactors.java)
 - [05-12. Class Sequence (search, order, find element working in collections)](src/SecuenciaPlus.java)
+- [16. Exploting Numbers](src/ExplotingNumbers.java)
 - [Revert A String](src/RevertString.java)
 - [Simple Reverse of a string](src/SimpleReverse.java)
 - [Poligonal Numbers](src/PoligonalNumbers.java)
-- [HANOI TOWERS](src/HanoiTowers.java)
+- [Digito infinito de un numero](src/Gdigito.java)
+- [Recursive Quick Sort](src/QuickSort.java)
+
 - More exercises will be added here as I progress.
 
 ## Complex Exercises
 
 - [25. Simple Reverse of a string (without repeated characters)](src/SimpleReverse.java)
+- [65. Fractal Hexagono](src/FractalHexagono.java)
 - [68. Poligonal Numbers](src/PoligonalNumbers.java)
 - [95. Fractal of Snowcups](src/CopoDeNieve.java)
 - [95. Fractal of Snowcups with visuals](src/CopoDeNieveAnimado.java)
 - [96. Fractal  "Parmoniosa"](src/Parmoniosa.java)
+- [114. Fractal  "Estrella"](src/EstrellaRecursiva.java)
+- [HANOI TOWERS](src/HanoiTowers.java)
   
 ## How to Use
 
