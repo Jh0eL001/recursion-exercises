@@ -50,6 +50,7 @@ In this repository, I solve different recursion problems using Java. The exercis
 - [Poligonal Numbers](src/PoligonalNumbers.java)
 - [Digito infinito de un numero](src/Gdigito.java)
 - [Recursive Quick Sort](src/QuickSort.java)
+- [Insertion Sort](src/InsertionSort.java)
 
 - More exercises will be added here as I progress.
 

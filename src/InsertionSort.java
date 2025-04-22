@@ -1,3 +1,4 @@
+
 /*
  * 2025-04-21.
  * ExerciseName
@@ -5,6 +6,7 @@
  * PR|  |   
  * CC| num ∈ ℕ⁺ (naturales positivos), div ∈ [1, num]
  */
+import java.util.Arrays;
 
 public class InsertionSort {
   public static void iterativeInsertion(int[] A, int n) {
@@ -19,13 +21,35 @@ public class InsertionSort {
     }
   }
 
-  public static void main(String[] args) {
-    int[] array = { 8, 1, 9, 6, 7, 4, 5, 3, 2 };
-    System.out.println("Original array: " + array);
-    System.out.println("Sorted array: ");
-    iterativeInsertion(array, array.length);
-    for (int i : array) {
-      System.out.print(i + ", ");
+  static void insertionSortRecursive(int arr[], int n) {
+    // Base case
+    if (n <= 1)
+      return;
+
+    // Sort first n-1 elements
+    insertionSortRecursive(arr, n - 1);
+
+    // Insert last element at its correct position
+    // in sorted array.
+    int last = arr[n - 1];
+    int j = n - 2;
+
+    /*
+     * Move elements of arr[0..i-1], that are
+     * greater than key, to one position ahead
+     * of their current position
+     */
+    while (j >= 0 && arr[j] > last) {
+      arr[j + 1] = arr[j];
+      j--;
     }
+    arr[j + 1] = last;
+  }
+
+  public static void main(String[] args) {
+    int[] array = { 15, 13, 12, 19, 11, 14 };
+    System.out.println("Original array: " + Arrays.toString(array));
+    iterativeInsertion(array, array.length);
+    System.out.println("Sorted array: " + Arrays.toString(array));
   }
 }
