@@ -12,6 +12,14 @@ public class CharacterCounter {
     return charCount(word.toLowerCase(), character, 0);
   }
 
+  private static int charCount(String word, char character, int pos) {
+    if (pos >= word.length()) {
+      return 0;
+    }
+    int count = (word.charAt(pos) == character) ? 1 : 0;
+    return count + charCount(word, character, pos + 1);
+  }
+
 
 
   public static void main(String[] args) {
